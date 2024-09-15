@@ -7,20 +7,18 @@ This project aims to use unsupervised learning techniques, specifically K-Means 
 
 # Table of Contents
 
-1. [Prerequisties](#prerequisites)
-- [Installation](#installation)
-- [Repository Setup](#repository-setup)
-- [Git Bash Command Example](#git-bash-command-example)
-
-2. [Repository Structure](#repository-structure)
-
-3. [Challenge Instructions](#challenge-instructions)
-
-4. [Data Preparation Example Code](#data-preparation-example-code)
-
-5. [Acknowledgements](#acknowledgements)
-
-6. [Author](#author)
+- [CryptoClustering](#cryptoclustering)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Repository Setup:](#repository-setup)
+  - [Git Bash Command Example](#git-bash-command-example)
+- [Repository Structure](#repository-structure)
+- [Challenge Instructions](#challenge-instructions)
+- [Data Preparation Example Code](#data-preparation-example-code)
+- [Acknowledgements](#acknowledgements)
+- [Author](#author)
 
 
 # Prerequisites
@@ -36,7 +34,7 @@ Crypto Clustering Challenge, ensure you complete the following requirements
   - Create a new repository called 'CryptoClustering' in GitHub with a README file
   - Copy the SSH key in GitHub
   - Clone SSH key in directory
-    - Import the StartCode and Resources files into the directory
+    - Import the StarterCode and Resources files into the directory
   - Git add, commit, and push changes into the repository
 
 
@@ -53,7 +51,6 @@ git push
 
 # Repository Structure
 - CryptoClustering
-    - .git
     - Resources 
       - crypto_market_data
     - gitignore
@@ -80,7 +77,7 @@ Complete the following setps:
 # Data Preparation Example Code 
 
 ```VS Code
-##  Use the `StandardScaler()` module from scikit-learn to normalize the data from the CSV file
+# Use the `StandardScaler()` module from scikit-learn to normalize the data from the CSV file
 
 scaled_market_data = StandardScaler().fit_transform(df_market_data[['price_change_percentage_24h', 'price_change_percentage_7d',
        'price_change_percentage_14d', 'price_change_percentage_30d',
@@ -88,7 +85,7 @@ scaled_market_data = StandardScaler().fit_transform(df_market_data[['price_chang
        'price_change_percentage_1y']]
 )
 
-## Create a DataFrame with the scaled data
+# Create a DataFrame with the scaled data
 
 scaled_market_data_df = pd.DataFrame(
 scaled_market_data,
