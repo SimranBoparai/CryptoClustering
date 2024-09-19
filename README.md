@@ -101,10 +101,6 @@ columns=['price_change_percentage_24h', 'price_change_percentage_7d',
 
 I want to mention the following individuals and resources for their assistance and support throughout this assignment: 
 - Study group members
-
-  Omid Khan - omidk414@gmail.com - omidk414
-
-  Evan Wall - - ewall@escoffier.edu - Ewall24 
 - Xpert Learning Assistant and ChatGPT
 - Class Activities 
 
