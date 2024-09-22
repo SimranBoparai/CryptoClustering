@@ -11,12 +11,12 @@ This project aims to use unsupervised learning techniques, specifically K-Means 
 - [Overview](#overview)
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [Required Tools](#required-tools)
+  - [Windows Installation Process](#windows-installation-process)
   - [Repository Setup:](#repository-setup)
-  - [Git Bash Command Example](#git-bash-command-example)
 - [Repository Structure](#repository-structure)
 - [Challenge Instructions](#challenge-instructions)
-- [Data Preparation Example Code](#data-preparation-example-code)
+- [Data Preparation Code Example](#data-preparation-code-example)
 - [Acknowledgements](#acknowledgements)
 - [Author](#author)
 
@@ -25,37 +25,40 @@ This project aims to use unsupervised learning techniques, specifically K-Means 
 
 Crypto Clustering Challenge, ensure you complete the following requirements:
 
-## Installation 
+## Required Tools
 - Install VS Code, and Python on your machine (can use Jupyter Notebook)
 - Install the Pandas, Scikit-learn, and HvPlot libraries
-- Create a new repository called 'CryptoClustering' in GitHub with README and .gitignore file.
+
+## Windows Installation Process
+- Open your terminal or command prompt and run the following commands:
+
+  ```
+     pip install pandas
+     pip install scikit-learn
+     pip install hvplot
+   ```
 
 ## Repository Setup:
-  - Create a new repository called 'CryptoClustering' in GitHub with a README file
-  - Copy the SSH key in GitHub
+  - Create a new repository called ```CryptoClustering``` in GitHub with a README file
+  - Clone the repository to your local machine: ```git clone https://github.com/your_username/CryptoClustering.git```
+  - Navigate into the repository folder and add the starter file and Resources folder containing ```crypto_market_data.csv``` to this folder 
+  - Rename the start file ```Crypto_Clustering_starter_code.ipynb``` to ```Crypto_Clustering.ipynb``` 
   - Clone SSH key in directory
-    - Import the StarterCode and Resources files into the directory
-  - Git add, commit, and push changes into the repository
-
-
-## Git Bash Command Example
-Navigate into a working directory. 
+  - Push the changes to your GitHub repository
+```git add .
+git commit -m "Pushing ypdated notebook"
+git push origin main
 ```
-git clone (add you ssh key)
-cd 'CryptoClustering'
-git add .
-git commit -m "Pushing challenge work"
-git push 
-```
-
 
 # Repository Structure
-- CryptoClustering
-    - Resources 
-      - crypto_market_data
-    - gitignore
+```
+  - CryptoClustering
+    - Resources
+      - crypto_market_data.csv
+    - .gitignore
     - Crypto_Clustering.ipynb
     - README.md
+```
 
 
 # Challenge Instructions
@@ -74,7 +77,7 @@ Complete the following setps:
   7. Visualize and Compare the Results 
 
 
-# Data Preparation Example Code 
+# Data Preparation Code Example
 
 ```VS Code
 # Use the `StandardScaler()` module from scikit-learn to normalize the data from the CSV file
