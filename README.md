@@ -9,7 +9,7 @@
 - [Prerequisites](#prerequisites)
   - [Required Tools](#required-tools)
   - [Windows Installation Process](#windows-installation-process)
-  - [Repository Setup:](#repository-setup)
+  - [Repository Setup](#repository-setup)
 - [Repository Structure](#repository-structure)
 - [Challenge Instructions](#challenge-instructions)
 - [Data Preparation Code Example](#data-preparation-code-example)
@@ -38,7 +38,7 @@ Crypto Clustering Challenge, ensure you complete the following requirements
      pip install hvplot
    ```
 
-## Repository Setup:
+## Repository Setup
   - Create a new repository called ```CryptoClustering``` in GitHub with a README file
   - Clone the repository to your local machine: ```git clone https://github.com/your_username/CryptoClustering.git```
   - Navigate into the repository folder and add the starter file and Resources folder containing ```crypto_market_data.csv``` to this folder 
