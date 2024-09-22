@@ -26,7 +26,7 @@ This project aims to use unsupervised learning techniques, specifically K-Means 
 Crypto Clustering Challenge, ensure you complete the following requirements:
 
 ## Required Tools
-- Install VS Code, and Python on your machine (can use Jupyter Notebook)
+- Install VS Code, and Python on your machine (or Jupyter Notebook)
 - Install the Pandas, Scikit-learn, and HvPlot libraries
 
 ## Windows Installation Process
@@ -43,11 +43,10 @@ Crypto Clustering Challenge, ensure you complete the following requirements
   - Clone the repository to your local machine: ```git clone https://github.com/your_username/CryptoClustering.git```
   - Navigate into the repository folder and add the starter file and Resources folder containing ```crypto_market_data.csv``` to this folder 
   - Rename the start file ```Crypto_Clustering_starter_code.ipynb``` to ```Crypto_Clustering.ipynb``` 
-  - Clone SSH key in directory
   - Push the changes to your GitHub repository
 ```
 git add .
-git commit -m "Pushing ypdated notebook"
+git commit -m "Pushing updated notebook"
 git push origin main
 ```
 
