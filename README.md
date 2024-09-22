@@ -1,15 +1,11 @@
 # CryptoClustering
 
 
-# Overview
-This project aims to use unsupervised learning techniques, specifically K-Means clustering and Principal Component Analysis (PCA), to analyze and cluster cryptocurrencies based on their 24-hour and 7-day price changes. By clustering the cryptocurrencies, we aim to discover whether 24-hour and 7-day price fluctuations influence the groupings of different coins.
-
-
 # Table of Contents
 
 - [CryptoClustering](#cryptoclustering)
-- [Overview](#overview)
 - [Table of Contents](#table-of-contents)
+- [Challenge Overview](#challenge-overview)
 - [Prerequisites](#prerequisites)
   - [Required Tools](#required-tools)
   - [Windows Installation Process](#windows-installation-process)
@@ -19,6 +15,10 @@ This project aims to use unsupervised learning techniques, specifically K-Means 
 - [Data Preparation Code Example](#data-preparation-code-example)
 - [Acknowledgements](#acknowledgements)
 - [Author](#author)
+
+
+# Challenge Overview
+This project aims to use unsupervised learning techniques, specifically K-Means clustering and Principal Component Analysis (PCA), to analyze and cluster cryptocurrencies based on their 24-hour and 7-day price changes. By clustering the cryptocurrencies, we aim to discover whether 24-hour and 7-day price fluctuations influence the groupings of different coins.
 
 
 # Prerequisites
@@ -45,7 +45,8 @@ Crypto Clustering Challenge, ensure you complete the following requirements
   - Rename the start file ```Crypto_Clustering_starter_code.ipynb``` to ```Crypto_Clustering.ipynb``` 
   - Clone SSH key in directory
   - Push the changes to your GitHub repository
-```git add .
+```
+git add .
 git commit -m "Pushing ypdated notebook"
 git push origin main
 ```
